@@ -6,7 +6,7 @@ import styles from "./Form.module.css";
 interface FormData {
   name: string;
   lastname: string;
-  gender: "male" | "female";
+  gender: "male" | "female" | "no_binary" | "others";
   password: string;
   confirmpassword: string;
   terms: boolean;
