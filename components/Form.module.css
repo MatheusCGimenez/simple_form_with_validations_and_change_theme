@@ -1,0 +1,63 @@
+.form {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  width: 500px;
+  background-color: #fff;
+  outline: 2px solid black;
+  min-height: 600px;
+  width: 600px;
+  border-radius: 30px;
+  padding: 5rem;
+
+  input {
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid;
+    font-weight: bold;
+  }
+
+  input:focus {
+    outline: none;
+  }
+
+  input:hover {
+    border-bottom: 2px solid blue;
+  }
+
+  select {
+    margin: 0 35%;
+    border: 1px solid;
+    text-align: center;
+    transition: 0.3s;
+  }
+
+  select:hover {
+    background-color: black;
+    color: #fff;
+    transition: 0.3s;
+  }
+
+  button {
+    margin: 0 35%;
+    height: 2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    border: 1px solid;
+    transition: 0.3s;
+  }
+
+  button:hover {
+    background-color: black;
+    transition: 0.3s;
+  }
+
+  .error_msg {
+    color: rgb(252, 138, 138);
+    transition: .3s;
+  }
+}

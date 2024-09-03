@@ -1,0 +1,14 @@
+.nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 100dvw;
+  height: 6dvh;
+  background-color: aqua;
+  border-bottom: 3px solid black;
+
+  .icon {
+    height: 2rem;
+    width: 2rem;
+  }
+}
